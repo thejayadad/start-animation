@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        #circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: orange;
+            margin: 25px;
+            position: relative;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        @-webkit-keyframes mymove {
+            from {top: 0px;}
+            to {top: 200px;}
+            }
+     
+        </style>
+</head>
+<body>
+    <h2>JavaScript Animation</h2>
+    <div onclick="moveCircle()" id="circle"></div>
+    <script src="main.js"></script>
+</body>
+</html>
